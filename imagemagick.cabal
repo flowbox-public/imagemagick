@@ -1,5 +1,5 @@
 Name:                imagemagick
-Version:             0.0.3.5
+Version:             0.0.3.6
 Synopsis:            bindings to imagemagick library
 License:             OtherLicense
 License-file:        LICENSE
@@ -71,7 +71,8 @@ Library
                       , Graphics.ImageMagick.MagickWand.FFI.WandProperties
   build-depends:       base >= 4.0 && <5.0
                       , resourcet >= 0.3 && <1.2
-                      , transformers >= 0.3 && < 0.5
+                      , transformers >= 0.2
+                      , transformers-compat >= 0.3
                       , vector >= 0.9 && <0.11
                       , bytestring >= 0.9 && <0.11
                       , text >= 0.11 && <1.3
