@@ -73,7 +73,7 @@ Library
                       , resourcet >= 0.3 && <1.2
                       , transformers >= 0.2
                       , transformers-compat >= 0.3
-                      , vector >= 0.9 && <0.11
+                      , vector >= 0.9 && <0.12
                       , bytestring >= 0.9 && <0.11
                       , text >= 0.11 && <1.3
                       , system-filepath == 0.4.*
@@ -93,7 +93,7 @@ executable            resize
     build-depends:      base >= 4.0 && <5.0
                       , resourcet >= 0.3 && <1.2
                       , transformers >= 0.3 && < 0.5
-                      , vector >= 0.9 && <0.11
+                      , vector >= 0.9 && <0.12
                       , bytestring >= 0.9 && <0.11
                       , text >= 0.11 && <1.3
                       , system-filepath == 0.4.*
@@ -112,7 +112,7 @@ executable            extent
     build-depends:      base >= 4.0 && <5.0
                       , resourcet >= 0.3 && <1.2
                       , transformers >= 0.3 && < 0.5
-                      , vector >= 0.9 && <0.11
+                      , vector >= 0.9 && <0.12
                       , bytestring >= 0.9 && <0.11
                       , text >= 0.11 && < 1.3
                       , system-filepath == 0.4.*
@@ -131,7 +131,7 @@ executable            floodfill
     build-depends:      base >= 4.0 && <5.0
                       , resourcet >= 0.3 && <1.2
                       , transformers >= 0.3 && < 0.5
-                      , vector >= 0.9 && <0.11
+                      , vector >= 0.9 && <0.12
                       , bytestring >= 0.9 && <0.11
                       , text >= 0.11 && <1.3
                       , system-filepath == 0.4.*
@@ -151,7 +151,7 @@ executable            cyclops
     build-depends:      base >= 4.0 && <5.0
                       , resourcet >= 0.3 && <1.2
                       , transformers >= 0.3 && <0.5
-                      , vector >= 0.9 && <0.11
+                      , vector >= 0.9 && <0.12
                       , bytestring >= 0.9 && <0.11
                       , text >= 0.11 && <1.3
                       , system-filepath == 0.4.*
@@ -170,7 +170,7 @@ executable            clipmask
     build-depends:      base >= 4.0 && <5.0
                       , resourcet >= 0.3 && <1.2
                       , transformers >= 0.3 && <0.5
-                      , vector >= 0.9 && <0.11
+                      , vector >= 0.9 && <0.12
                       , bytestring >= 0.9 && <0.11
                       , text >= 0.11 && <1.3
                       , system-filepath == 0.4.*
@@ -188,7 +188,7 @@ executable            paint-trans
     build-depends:      base >= 4.0 && <5.0
                       , resourcet >= 0.3 && <1.2
                       , transformers >= 0.3 && < 0.5
-                      , vector >= 0.9 && <0.11
+                      , vector >= 0.9 && <0.12
                       , bytestring >= 0.9 && <0.11
                       , text >= 0.11 && < 1.3
                       , system-filepath == 0.4.*
@@ -208,7 +208,7 @@ executable            round-mask
     build-depends:      base >= 4.0 && <5.0
                       , resourcet >= 0.3 && <1.2
                       , transformers >= 0.3 && < 0.5
-                      , vector >= 0.9 && <0.11
+                      , vector >= 0.9 && <0.12
                       , bytestring >= 0.9 && <0.11
                       , text >= 0.11 && <1.3
                       , system-filepath == 0.4.*
@@ -227,7 +227,7 @@ executable            make-tile
     build-depends:      base >= 4.0 && <5.0
                       , resourcet >= 0.3 && <1.2
                       , transformers >= 0.3 && <0.5
-                      , vector >= 0.9 && <0.11
+                      , vector >= 0.9 && <0.12
                       , bytestring >= 0.9 && <0.11
                       , text >= 0.11 && < 1.3
                       , system-filepath == 0.4.*
@@ -245,7 +245,7 @@ executable            draw-shapes
     build-depends:      base >= 4.0 && <5.0
                       , resourcet >= 0.3 && <1.2
                       , transformers >= 0.3 && <0.5
-                      , vector >= 0.9 && <0.11
+                      , vector >= 0.9 && <0.12
                       , bytestring >= 0.9 && <0.11
                       , text >= 0.11 && <1.3
                       , system-filepath == 0.4.*
@@ -264,7 +264,7 @@ executable            text-effects
     build-depends:      base >= 4.0 && <5.0
                       , resourcet >= 0.3 && <1.2
                       , transformers >= 0.3 && <0.5
-                      , vector >= 0.9 && <0.11
+                      , vector >= 0.9 && <0.12
                       , bytestring >= 0.9 && <0.11
                       , text >= 0.11 && <1.3
                       , system-filepath == 0.4.*
@@ -283,7 +283,7 @@ executable            gel
     build-depends:      base >= 4.0 && <5.0
                       , resourcet >= 0.3 && <1.2
                       , transformers >= 0.3 && <0.5
-                      , vector >= 0.9 && <0.11
+                      , vector >= 0.9 && <0.12
                       , bytestring >= 0.9 && <0.11
                       , text >= 0.11 && <1.3
                       , system-filepath == 0.4.*
@@ -302,7 +302,7 @@ executable            reflect
     build-depends:      base >= 4.0 && <5.0
                       , resourcet >= 0.3 && <1.2
                       , transformers >= 0.3 && <0.5
-                      , vector >= 0.9 && <0.11
+                      , vector >= 0.9 && <0.12
                       , bytestring >= 0.9 && <0.11
                       , text >= 0.11 && <1.3
                       , system-filepath == 0.4.*
@@ -321,7 +321,7 @@ executable            3dlogo
     build-depends:      base >= 4.0 && <5.0
                       , resourcet >= 0.3 && <1.2
                       , transformers >= 0.3 && <0.5
-                      , vector >= 0.9 && <0.11
+                      , vector >= 0.9 && <0.12
                       , bytestring >= 0.9 && <0.11
                       , text >= 0.11 && <1.3
                       , system-filepath == 0.4.*
@@ -340,7 +340,7 @@ executable            affine
     build-depends:      base >= 4.0 && <5.0
                       , resourcet >= 0.3 && <1.2
                       , transformers >= 0.3 && <0.5
-                      , vector >= 0.9 && <0.11
+                      , vector >= 0.9 && <0.12
                       , bytestring >= 0.9 && <0.11
                       , text >= 0.11 && <1.3
                       , system-filepath == 0.4.*
@@ -359,7 +359,7 @@ executable            grayscale
     build-depends:      base >= 4.0 && <5.0
                       , resourcet >= 0.3 && <1.2
                       , transformers >= 0.3 && <0.5
-                      , vector >= 0.9 && <0.11
+                      , vector >= 0.9 && <0.12
                       , bytestring >= 0.9 && <0.11
                       , text >= 0.11 && <1.3
                       , system-filepath == 0.4.*
@@ -378,7 +378,7 @@ executable            modulate
     build-depends:      base >= 4.0 && <5.0
                       , resourcet >= 0.3 && <1.2
                       , transformers >= 0.3 && <0.5
-                      , vector >= 0.9 && <0.11
+                      , vector >= 0.9 && <0.12
                       , bytestring >= 0.9 && <0.11
                       , text >= 0.11 && <1.3
                       , system-filepath == 0.4.*
@@ -398,7 +398,7 @@ executable            landscape3d
     build-depends:      base >= 4.0 && <5.0
                       , resourcet >= 0.3 && <1.2
                       , transformers >= 0.3 && <0.5
-                      , vector >= 0.9 && <0.11
+                      , vector >= 0.9 && <0.12
                       , bytestring >= 0.9 && <0.11
                       , text >= 0.11 && <1.3
                       , system-filepath == 0.4.*
@@ -417,7 +417,7 @@ executable            tilt-shift
     build-depends:      base >= 4.0 && <5.0
                       , resourcet >= 0.3 && <1.2
                       , transformers >= 0.3 && <0.5
-                      , vector >= 0.9 && <0.11
+                      , vector >= 0.9 && <0.12
                       , bytestring >= 0.9 && <0.11
                       , text >= 0.11 && <1.3
                       , system-filepath == 0.4.*
@@ -436,7 +436,7 @@ executable            bunny
     build-depends:      base >= 4.0 && <5.0
                       , resourcet >= 0.3 && <1.2
                       , transformers >= 0.3 && <0.5
-                      , vector >= 0.9 && <0.11
+                      , vector >= 0.9 && <0.12
                       , bytestring >= 0.9 && <0.11
                       , text >= 0.11 && <1.3
                       , system-filepath == 0.4.*
@@ -455,7 +455,7 @@ executable            pixel-mod
     build-depends:      base >= 4.0 && <5.0
                       , resourcet >= 0.3 && <1.2
                       , transformers >= 0.3 && <0.5
-                      , vector >= 0.9 && <0.11
+                      , vector >= 0.9 && <0.12
                       , bytestring >= 0.9 && <0.11
                       , text >= 0.11 && <1.3
                       , system-filepath == 0.4.*
@@ -474,7 +474,7 @@ executable            wandtest
     build-depends:      base >= 4.0 && <5.0
                       , resourcet >= 0.3 && <1.2
                       , transformers >= 0.3 && <0.5
-                      , vector >= 0.9 && <0.11
+                      , vector >= 0.9 && <0.12
                       , bytestring >= 0.9 && <0.11
                       , text >= 0.11 && <1.3
                       , system-filepath == 0.4.*
@@ -494,7 +494,7 @@ test-suite           image-tests
                      , directory
                      , resourcet >= 0.3 && <1.2
                      , transformers >= 0.3 && <0.5
-                     , vector >= 0.9 && <0.11
+                     , vector >= 0.9 && <0.12
                      , bytestring >= 0.9 && <0.11
                      , text >= 0.11 && <1.3
                      , system-filepath == 0.4.*
