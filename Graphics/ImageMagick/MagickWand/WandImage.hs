@@ -911,8 +911,8 @@ getImagesBlob w = liftIO $ do
 
 -- | Reads an image or image sequence. The images are inserted at
 -- the current image pointer position
-readImage :: (MonadResource m) => Ptr MagickWand -> FilePath -> m ()
-readImage w fn = withException_ w $ useAsCString (_toBS $ encode fn) (F.magickReadImage w)
+readImage :: (MonadResource m) => Ptr MagickWand -> String -> m ()
+readImage w fn = withException_ w $ useAsCString (_toBS $ T.pack fn) (F.magickReadImage w)
 
 -- | Reads an image or image sequence from a blob
 readImageBlob :: (MonadResource m) => PMagickWand -> ByteString -> m ()
